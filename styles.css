@@ -1,8 +1,13 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fontcool.ttf);
+}
+
 
 body {
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
-    font-family: "Open Sans", sans-serif;
+    font-family: myFirstFont
     text-align: center;
 }
 
@@ -19,5 +24,6 @@ header {
 footer {
 	font-style: italic;
 	font-size: 90%;
+	font-family: 'Times New Roman', serif;
 }
 
