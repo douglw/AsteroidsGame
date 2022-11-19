@@ -27,7 +27,7 @@ public void keyPressed(){
     bob.accelerate(1);
   }
   if(key == 's'){
-    bob.accelerate(1);
+    bob.accelerate(-1);
   }
   if(key == 'f'){
     bob.setX((int)(Math.random()*800));
