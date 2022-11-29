@@ -1,5 +1,6 @@
-class Asteroids extend Floater{ //fill in l8r
-  ?? double rotSpeed; //randomly + or -
-  ?? Asteroid(){ /*code not shown*/}
-  ?? move(){ /*code not shown*/}
+class Asteroids extends Floater{
+  private double rotSpeed; //randomly + or -
+  public Asteroid(){ /*code not shown*/}
+  public move(){ /*code not shown*/} 
+
 }
