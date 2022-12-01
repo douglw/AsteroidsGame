@@ -1,4 +1,4 @@
-class Asteroids extends Floater{
+/* class Asteroids extends Floater{
   private double rotSpeed; //randomly + or -
   public Asteroid(){
     xCorners = new int[]{9,2,-4,-6,-4,2};
@@ -6,4 +6,4 @@ class Asteroids extends Floater{
   } //finish creating a few shapse for the asteroids and make the asteorids switch to a different shape at random.
   public move(){ /*code not shown*/} 
 
-}
+} */
