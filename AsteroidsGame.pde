@@ -23,6 +23,10 @@ public void draw()
   for(int i = 0; i < spaceRock.size(); i++){
     spaceRock.get(i).show();
     spaceRock.get(i).move();
+    if(dist(spaceRock.get(i).getX(), spaceRock.get(i).getY(), bob.getX(), bob.getY()) < 5){
+      spaceRock.remove(i);
+      i--;
+    }
   }
 }
 public void keyPressed(){
