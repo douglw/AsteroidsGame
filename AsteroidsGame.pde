@@ -1,10 +1,15 @@
 Spaceship bob = new Spaceship();
 Star[] sue = new Star[100];
+ArrayList <Asteroids> spaceRock;
 public void setup() 
 {
   size(600,500);
   for(int i = 0; i < sue.length; i++){
     sue[i] = new Star();
+  }
+  spaceRock = new ArrayList <Asteroids>();
+  for(int i = 0; i < 20; i++){
+    spaceRock.add(new Asteroids());
   }
 }
 public void draw() 
@@ -15,6 +20,10 @@ public void draw()
   }
   bob.show();
   bob.move();
+  for(int i = 0; i < spaceRock.size(); i++){
+    spaceRock.get(i).show();
+    spaceRock.get(i).move();
+  }
 }
 public void keyPressed(){
   if(key == 'a'){
